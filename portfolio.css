@@ -1,0 +1,55 @@
+body {
+    
+    background-color: #475569;
+    font-family: 'Arial', sans-serif;
+    background-color: #0f172a;
+    color: #cbd5e1;
+    margin: 0;
+    padding: 0;
+}
+.skills {
+    display: flex;
+    gap: 10px;
+    flex-wrap: wrap;
+    margin: 20px 0;
+}
+
+.skills span {
+    background-color: #202938;
+    color: white;
+    padding: 8px 14px;
+    border-radius: 20px;
+    font-size: 14px;
+    border: 1px solid #475569;
+}
+
+.buttons {
+    display: flex;
+    gap: 12px;
+    margin-top: 20px;
+}
+
+.btn {
+    background-color: #2563eb;
+    color: white;
+    padding: 12px 20px;
+    text-decoration: underline;
+    border-radius: 8px;
+}
+
+.btn:hover {
+    background-color: #1d4ed8;
+    
+}
+.num {
+    font-size: 17px;
+    font-weight: bold;
+    color: #a2aabd;
+}
+.gng {
+    text-decoration: none;
+    padding: 10px 20px;
+    background-color: #2563eb;
+    color: white;
+    border-radius: 8px;
+}
