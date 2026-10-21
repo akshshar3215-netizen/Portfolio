@@ -1,9 +1,9 @@
-body {
-    
-    background-color: #475569;
-    font-family: 'Arial', sans-serif;
-    background-color: #0f172a;
-    color: #cbd5e1;
+
+  body {
+    background: linear-gradient(135deg, #092d3d, #181e50, #043e4d);
+    color: white;
+    min-height: 100vh;
+}
     margin: 0;
     padding: 0;
 }
@@ -49,10 +49,15 @@ body {
 .gng {
     text-decoration: none;
     padding: 10px 20px;
-    background-color: #2563eb;
+    background-color: #114ed1;
     color: white;
     border-radius: 8px;
 }
+.hd {
+    color: #1106a5;
+    font-style: italic;
+}
+  
 
 @media screen and (max-width: 600px) {
 
@@ -88,7 +93,7 @@ body {
         height: auto;
     }
 
- 
+    /* Stack cards vertically */
     .projects,
     .skills {
         display: flex;
@@ -96,7 +101,7 @@ body {
         gap: 16px;
     }
 
-    
+    /* Make buttons easier to tap */
     button,
     .btn {
         max-width: 100%;
@@ -113,3 +118,7 @@ body {
         font-size: 14px;
     }
 }
+
+
+
+
